@@ -994,3 +994,136 @@ div.edit-category .edit-category-nav .nav-stacked,
 {
     border: 1px solid var(--tertiary-800);
 }
+
+.topic-list th.views, .topic-list td.views {
+   display: none;
+}
+
+.user-card {
+    display: none;
+}
+
+
+.topic-poster {
+  pointer-events: none;
+  cursor: default;
+}
+
+.topic-avatar {
+  pointer-events: none;
+  cursor: default;
+}
+
+.post-avatar {
+  pointer-events: none;
+  cursor: default;
+}
+
+.topic-meta-data {
+  pointer-events: none;
+  cursor: default;
+}
+
+.edits {
+    display: none;
+}
+
+.post-notice.new-user {
+  display: none;
+}
+
+
+.reply-to-tab {
+  display: none;
+}
+
+.topic-map {
+  display: none;
+}
+
+.global-notice {
+  display: none;
+}
+
+#topic-footer-buttons {
+  .topic-footer-main-buttons {
+    button.btn-primary.create {
+      span.d-button-label:after {
+        // Adding this content after Reply
+        content: " to Thread";
+      }
+    }
+  }
+}
+
+
+
+.show-replies {
+    display: none;
+}
+
+
+.topic-post:first-child .post-controls .reply {
+  display: none;
+}
+
+.widget-button.btn-flat.show-replies.btn-icon-text {
+display: none;
+}
+
+.post-notice.returning-user {
+display: none;
+}
+
+.clearfix.small-user-list.who-liked {
+display: none;
+}
+
+//hide category info
+
+td.topics {
+  display: none !important;
+}
+
+//hide catgory topic last posted/replied
+span.relative-date.with-year {
+    display: none;
+}
+
+span.relative-date {
+    display: none;
+}
+
+//hides the number of replies
+div.num.posts-map.posts.topic-list-data {
+display: none;
+}
+
+// hide category moderators on /about page
+section.about.category-moderators {
+    display: none;
+}
+
+// hide stats /about page
+section.about.stats {
+    display: none;
+}
+
+// hide admins on /about page
+section.about.admins {
+    display: none;
+}
+
+//hide waving hand icon on login
+
+img.waving-hand {
+    display: none;
+}
+
+div.login-welcome__title {
+    display: none;
+}
+
+th.activity.sortable.sorting.num.topic-list-data {
+    display: none;
+}
